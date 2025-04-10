@@ -1,0 +1,241 @@
+@import url("header_footer.css");
+
+.header-content{
+    margin-top: 36px;
+    height: 336px;
+    background:url("../img/h_about_bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.header-content h1{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 336px;
+}
+
+
+
+/* choose */
+.choose{
+    padding-top: 31px;
+}
+.choose .container{
+    display: flex;
+    gap: 74px;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose-im{
+    max-width: 352px;
+    height: 452px;
+}
+.choose-im img{
+    max-width:100%;
+    height: auto;
+}
+.choose-info{
+    max-width: 500px;
+}
+.choose-info h1{
+    color: #838383;
+    font-size: 64px;
+}
+.choose-info ul{
+    display: flex;
+    margin:16px 0 43px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #b9b9b9;
+}
+.choose-info ul li{
+    width: 50%;
+}
+.choose-info ul a{
+    color: #b9b9b9;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+.choose-info ul a:hover{
+    color: #1EC9AA;
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+    transition: all 0.3s ease;
+}
+.experience>div{
+    width: 105px;
+    position: relative;
+    text-align: center;
+}
+.experience .percent{
+    position: absolute;
+    width: 102px;
+    height:102px;
+    top: 0;
+    left: 0;
+}
+.experience .percent svg{
+    width: 102px;
+    height:102px;
+} 
+.experience .percent .c1{
+    fill:none;
+    stroke:#D9D9D9;
+    stroke-width: 4px;
+    position: absolute;
+    left: 0;
+}
+.experience .percent .c2{
+    fill:none;
+    stroke:#1EC9AA;
+    stroke-width: 10px;
+    stroke-dasharray:270.04px;
+    stroke-dashoffset:270.4px;
+    position: absolute;
+    left:0;
+    transition: all 0.7s ease-in-out;
+}
+
+.experience div p:first-of-type{
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 32px;
+    letter-spacing: 0.5%;
+    text-transform: uppercase;
+    color: #838383;
+}
+.experience div p:last-of-type{
+    margin-top: 55px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #b9b9b9;
+}
+.choose-info .btn{
+    display: flex;
+    column-gap: 42px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.choose-info .btn button:hover{
+    border: 1px solid #1EC9AA;
+    outline: none;
+    color: #fff;
+    background-color: #1EC9AA;
+    cursor: pointer;
+}
+.choose-info .btn button{
+    padding: 8px 16px;
+    border: 1px solid #1A3660;
+    color:#1A3660;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* people-say */
+.people-say{
+    padding-top: 80px;
+}
+.people-say h2{
+    color: #0E2344;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.people-say .grey{
+    background-color: #f5f5f5;
+    padding: 50px 0 50px;
+}
+.people-say .container{
+    padding: 32px 16px 62px;
+    background-color: #fff;
+    text-align: center;
+    width: 800px;
+}
+.people-say .say{
+    max-width: 600px;
+    font-size: 14px;
+    margin: 40px auto 27px;
+    text-align: left;
+    color: #5d5d5d;
+    position: relative;
+}
+.people-say .open{
+    position: absolute;
+    top: -9px;
+    left: -36px;
+}
+.people-say .close{
+    position: absolute;
+    bottom: -3px;
+    right: -24px;
+}
+.people-say .name{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.people-say .status{
+    color: #1EC9AA;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* dest */
+.dest{
+    padding: 80px 0 86px;
+}
+.dest h2{
+    color: #0E2344;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.dest .container{
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+}
+.dest p{
+    margin-top: 18px;
+    color: #838383;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* counts */
+
+.counts{
+    background: url("../img/counts_info_bg.jpg") center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0 116px;
+    margin-bottom: 112px;
+}
+.counts .container{
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    transition: all 0.3s ease;
+}
+.counts .num{
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.counts .title{
+    font-size: 20;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+

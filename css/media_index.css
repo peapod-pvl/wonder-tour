@@ -1,0 +1,62 @@
+/* header_top */
+@media(max-width:1023px){
+    .header-top .container{
+        gap:20px;
+    }
+    .header-top .info{
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+    }
+    .tour-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tour-info{
+        max-width: 440px;
+    }
+}
+@media(max-width:719px){
+    nav .menu{
+        display: none;
+    }
+    nav .btn-menu{
+        display:block;
+    }
+    nav .menu>li{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    nav .menu>li .sub-menu{
+        position:relative;
+        display:none;
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 0;
+        background-color: #1EC9AA;
+    }
+    nav .menu>li .sub-menu a{
+        background-color: transparent;
+        color: #0E2344;
+    }
+    .header-content .container h1{
+        font-size: 40px;
+    }
+    .horizons .container{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .horizons-cont .btn{
+        flex-direction: column;
+        width: 50%;
+        gap: 10px;
+    }
+    .footer-cont .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:340px){
+    
+}

@@ -1,0 +1,22 @@
+/* header_top */
+@media(max-width:999px){
+    .header-top .container{
+        justify-content: center;
+        gap:32px;
+    }
+    .contacts .container{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:719px){
+
+    nav .menu{
+        display: none;
+    }
+    nav .btn-menu{
+        display:block;
+    }
+    .getintouch .cont-info{
+        flex-wrap: wrap;
+    }
+}

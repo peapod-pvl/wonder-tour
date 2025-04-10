@@ -1,0 +1,41 @@
+/* header_top */
+@media(max-width:1023px){
+    .choose .container{
+        flex-wrap:wrap;
+    }
+    .choose-im{
+        order:2;
+    }
+    .choose-info{
+        order:1;
+    }
+    .dest .container{
+        flex-wrap: wrap;
+    }
+    .counts .container{
+        gap:64px;
+    }
+}
+@media(max-width:719px){
+    .header-content .container h1{
+        font-size: 40px;
+    }
+
+    .choose-info h1{
+        font-size: 48px;
+    }
+    .experience{
+        gap:16px;
+        flex-wrap: wrap;
+    }
+    .experience>div{
+        float: left;
+    }
+
+    .counts .container{
+        flex-wrap: wrap;
+    }
+    .counts .num{
+        font-size: 64px;
+    }
+}

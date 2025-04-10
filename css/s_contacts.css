@@ -1,0 +1,86 @@
+@import url("header_footer.css");
+
+.header-content{
+    margin-top: 36px;
+    height: 420px;
+}
+
+/* contacts */
+.contacts{
+    padding: 80px 0;
+}
+.contacts .container{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+}
+.contacts .contact-item{
+    width: 272px;
+    height: 160px;
+    text-align: center;
+    padding: 28px 0 39px;
+    border: 4px solid #f3f3f3;
+}
+.contacts .contact-item p{
+    color: #838383;
+    font-size: 12px;
+    line-height: 140%;
+    margin-top: 11px;
+}
+
+/* GetInTouch */
+.getintouch{
+    padding-bottom: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.getintouch .container{
+    max-width: 878px;
+}
+.getintouch h2{
+    color: #0E2344;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.getintouch form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.getintouch .cont-info{
+    display: flex;
+    gap: 25px;
+}
+.getintouch .cont-info-item{
+    max-width: 277px;
+    padding: 13px 14px;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.getintouch .cont-info-item::placeholder{
+    color: #838383;
+    font-size: 12px;
+}
+.getintouch textarea{
+    height: 160px;
+    padding: 13px 14px;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.getintouch textarea::placeholder{
+    color: #838383;
+    font-size: 12px;
+}
+.getintouch form>input{
+    padding: 8px 16px;
+    background-color: #1EC9AA;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    width: 155px;
+}

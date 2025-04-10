@@ -1,0 +1,22 @@
+@media(max-width:1176px){
+    .tour-item{
+        flex-wrap: wrap;
+    }
+    .hot-tours .tour-item .tour-info,
+    .our-dest .tour-item .tour-info{
+        border-top: none!important;
+        border-left-width:2px;
+    }
+}
+@media(max-width:719px){
+    .hot-tours .tour-item .tour-im,
+    .our-dest .tour-item .tour-im{
+        max-height: auto;
+    }
+}
+@media(max-width:460px){
+    .hot-tours .tour-item .tour-info,
+    .our-dest .tour-item .tour-info{
+       padding-top:60px
+    }
+}
