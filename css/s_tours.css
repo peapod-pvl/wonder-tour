@@ -1,0 +1,153 @@
+@import url("header_footer.css");
+
+.header-content{
+    margin-top: 36px;
+    height: 336px;
+    background: url("../img/h_tours_bg\ .jpg") center no-repeat;
+    background-size: cover;
+}
+.header-content h1{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 336px;
+}
+
+/* hot tours */
+.hot-tours{
+    background-color: #fff;
+    padding-top: 44px;
+}
+.hot-tours h2, .our-dest h2{
+    font-size: 32px;
+    color: #ff5300;
+    font-weight: 600;
+    margin-bottom: 78px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.hot-tours .tour-item,
+.our-dest .tour-item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.hot-tours .tour-item .tour-im,
+.our-dest .tour-item .tour-im{
+    max-width: 440px;
+    max-height: 296px;
+}
+.hot-tours .tour-item .tour-im img,
+.our-dest .tour-item .tour-im img{
+    width: 100%;
+}
+.hot-tours .tour-item .tour-info,
+.our-dest .tour-item .tour-info{
+    border:2px solid #ff5303;
+    border-left-width:0;
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 440px;
+
+}
+.hot-tours .tour-item .price,
+.our-dest .tour-item .price{
+    width: 72px;
+    height: 56px;
+    background:url(../img/price_bg.svg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 17px 11px 16px 16px;
+}
+.hot-tours .tour-item .price span,
+.our-dest .tour-item .price span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.hot-tours .tour-info-text{
+    
+}
+.hot-tours .tour-info-text h3,
+.our-dest .tour-info-text h3{
+    font-size: 20px;
+    color: #0e2344;
+    font-weight: 600;
+    margin-left: 56px;
+}
+.hot-tours .tour-stars,
+.our-dest .tour-stars{
+    display:flex;
+    gap: 17px;
+    align-items: center;
+    margin: 8px 0 16px 62px;
+}
+.hot-tours .tour-stars ul,
+.our-dest .tour-stars ul{
+    display: flex;
+    gap: 2px;
+    color: #fff501;
+    font-size: 12px;
+}
+.hot-tours .tour-stars p,
+.our-dest .tour-stars p{
+    font-size: 10px;
+    font-weight: 400;
+    color: #838383;
+}
+.hot-tours .tour-info-text>p,
+.our-dest .tour-info-text>p{
+    margin-left: 63px;
+    margin-right: 51px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5d5d5d;
+    max-width: 326px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+.hot-tours .tour-info-btn button,
+.our-dest .tour-info-btn button{
+    background-color: transparent;
+    border: 1px solid #1A3660;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 63px;
+}
+
+/* our-dest */
+
+.our-dest{
+    background-color: #fff;
+    padding-top: 28px;
+}
+.our-dest h2{
+    color: #0E2344;
+    margin-bottom: 50px;
+}
+.our-dest .tour-item .tour-info{
+    border-color: #f3f3f3;
+}
+.our-dest .tour-item .price{
+    background-image: url("../img/price_bgDest.svg");
+}
+.nav-dest{
+    display: flex;
+    justify-content: center;
+    padding: 72px 0 92px;
+}
+.nav-dest div{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #1A3660;
+    text-align: center;
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 400;
+}
